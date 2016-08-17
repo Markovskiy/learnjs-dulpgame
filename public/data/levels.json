@@ -1,0 +1,14 @@
+{
+  "1": {
+    "name": "1",
+    "colorSlice": [45, 45, 90, 120, 60],
+    "circleSpeed": 1.5,
+    "bulletSpeed": 1.5
+  },
+"2": {
+    "name": "2",
+    "colorSlice": [60, 30, 45, 120, 105],
+    "circleSpeed": 2,
+    "bulletSpeed": 2
+  }
+}

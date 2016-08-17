@@ -1,4 +1,7 @@
 module.exports = {
+	devServer: {
+		contentBase: './public',
+	},
 	entry: {
 		app: './src/js/app.js',
 	},
@@ -10,7 +13,7 @@ module.exports = {
 		loaders: [
 			{
 				test: /\.css$/,
-				loader: 'style!css',
+				loader: 'style-loader!css-loader',
 			},
 			{
 				test: /\.js$/,
